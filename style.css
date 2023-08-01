@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+  
+}
+
+#root{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+  background-image: url("https://plus.unsplash.com/premium_photo-1676999224507-4da59054f485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvY2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#digitalClock{
+  width:350px;
+  height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(to right, rgba(64, 16, 236, 0), rgb(25, 174, 219));
+border: 0.2px solid rgb(73, 7, 7);
+border-radius: 5px;
+letter-spacing: 3px;
+font-weight: 600;
+opacity: 1;
+animation-name: example;
+animation-duration: 5s  ;
+animation-iteration-count: infinite;
+}
+
+/* transform: translateX(-100%);
+transform: translateX(0); */
+  
+@keyframes example {
+    0%   {background-color: rgb(212, 85, 11);}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(19, 233, 19);  }
+  }
